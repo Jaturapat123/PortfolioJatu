@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div id = "navi">
+        <a href = "Portfolio.html">Portfolio</a>
+        <div class = "naviinfo">
+            <a href = "Myself.html" id = "naviinfo1">ตัวผม</a>
+            <a href = "Act.html" id = "naviinfo2">กิจกรรม</a>
+            <a href = "Cers.html" id = "naviinfo3">ประกาศนียบัตร</a>
+        </div>
+    </div>
+    <img href = "pic\S__2850819.jpg" width="100%" height="100mm">
+    <div id = "prakob">
+        <img src ="pic\แฟ้มสะสมผลงาน นายจตุรภัทร บวกไธสง.png" width="25%">
+    </div>
+    <div id = "info">
+        <p>
+            <a style = "color:black;" href="https://drive.google.com/drive/u/0/folders/1RXlHb-S6fMTgOj0Uv8M5bVer8hqLSabR">ดู/ดาวน์โหลดแฟ้มสะสมผลงาน</a><br>
+        </p>
+    </div>
+
+<style>
+    body {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    a {
+        text-decoration: none;
+        color : white
+    }
+
+    #prakob {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+        z-index: 1;
+    }
+
+    #navi {
+        display: flex;
+        border: 10px solid red;
+        font-size: 10mm;
+        color : white;
+        background-color: red;
+        top: 0;
+        left: 0;
+        width: 99%;
+        position: fixed;
+        padding : 20px 1px 1px;
+        margin-right: 20px;
+        justify-content: space-between;
+    }
+
+    .naviinfo {
+        border:10px solid red;
+        font-size: 7mm;
+        background-color: red;
+        display: inline;
+        position: relative;
+    }
+
+    #naviinfo1:hover , #naviinfo2:hover, #naviinfo3:hover {
+        border : 20px solid white;
+        background-color: white;
+        color : red;
+        transition: 0.2s;
+    }
+
+    #info {
+        text-align: center;
+    }
+
+</style>
